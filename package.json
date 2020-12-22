@@ -44,18 +44,18 @@
   "author": "Nordic Semiconductor ASA",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "axios": "^0.19.0",
-    "bindings": "^1.5.0",
-    "chalk": "^2.4.2",
-    "cmake-js": "^5.3.0",
-    "commander": "^2.20.0",
+    "axios": "^0.21.1",
+    "bindings": "pverscha/node-bindings",
+    "chalk": "^4.1.0",
+    "cmake-js": "^6.1.0",
+    "commander": "^6.2.1",
     "nan": "^2.14.0",
-    "node-pre-gyp": "^0.13.0",
+    "node-pre-gyp": "^0.17.0",
     "regedit": "^3.0.2",
     "sander": "^0.6.0",
-    "semver": "^6.2.0",
-    "sudo-prompt": "^9.0.0",
-    "tar": "^4.4.10"
+    "semver": "^7.3.4",
+    "sudo-prompt": "^9.2.1",
+    "tar": "^6.0.5"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",

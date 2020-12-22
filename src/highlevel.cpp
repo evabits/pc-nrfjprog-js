@@ -405,7 +405,7 @@ void HighLevel::ExecuteFunction(uv_work_t * req)
     }
 }
 
-void HighLevel::ReturnFunction(uv_work_t * req)
+void HighLevel::ReturnFunction(uv_work_t * req, __attribute__((unused))int a)
 {
     Nan::HandleScope scope;
 

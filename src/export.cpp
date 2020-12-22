@@ -47,8 +47,8 @@ NAN_MODULE_INIT(init)
     HighLevel::initConsts(target);
     HighLevel::Init(target);
 }
-};
+}
 
-NODE_MODULE(pc_nrfjprog, init);
+NODE_MODULE(pc_nrfjprog, init)
 
 #endif

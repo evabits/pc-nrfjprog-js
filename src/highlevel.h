@@ -109,7 +109,7 @@ class HighLevel : public Nan::ObjectWrap
                              const bool hasSerialNumber = false
     );
     static void ExecuteFunction(uv_work_t *req);
-    static void ReturnFunction(uv_work_t *req);
+    static void ReturnFunction(uv_work_t *req, int a);
 
     static void init(v8::Local<v8::FunctionTemplate> target);
 
